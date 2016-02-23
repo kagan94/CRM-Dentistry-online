@@ -1,2 +1,2 @@
 # CRM-Dentistry-online-
-A project was implemented on Yii 1x.
+This project was implemented in Yii 1x.
