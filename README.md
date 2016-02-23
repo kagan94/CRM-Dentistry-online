@@ -8,5 +8,4 @@ Or try a demo:
   URL: http://crm.dental-center.com.ua/site/login
   
   Login: admin
-  
   Password: admin
