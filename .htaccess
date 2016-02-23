@@ -1,0 +1,22 @@
+AddDefaultCharset utf-8
+
+Options +FollowSymLinks 
+IndexIgnore */* 
+RewriteEngine on
+
+# if a directory or a file exists, use it directly 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php 
+RewriteRule . index.php
+
+php_value post_max_size 10M
+php_value upload_max_filesize 10M
+php_value max_execution_time 200
+php_value max_input_time 200
+
+### force www
+   RewriteCond %{HTTP_HOST} ^www.(.+)$ [NC]
+   RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+   RewriteBase /
