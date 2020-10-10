@@ -1,0 +1,8 @@
+title: CRM "Dentistry online"
+description: This project was implemented in Yii 1x.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
