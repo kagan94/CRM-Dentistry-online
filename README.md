@@ -6,7 +6,7 @@ ________
 
 Or try a demo:
 
-  URL: http://crm.dental-center.com.ua/site/login
+  URL: http://crm.dental-center.dp.ua/site/login
   
   Login: admin
   Password: admin
